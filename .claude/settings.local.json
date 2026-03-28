@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(javac -d bin src/*.java)",
+      "Bash(for conv:*)",
+      "Bash(do echo:*)",
+      "Bash(java -cp bin PixelCraft $conv test.png)",
+      "Bash(done)"
+    ]
+  }
+}
